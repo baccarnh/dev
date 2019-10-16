@@ -7,7 +7,10 @@ print(message)
 
 ## ex2: calcul divers
 print(3*3)
-print("(12/0) erreur de division par 0" )
+##print("(12/0) erreur de division par 0" )
+try: 12/0
+except: ZeroDivisionError
+print("erreur de division par0")
 print(4+9+78)
 print(12-7)
 print(5e4)
